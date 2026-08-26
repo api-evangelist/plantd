@@ -1,8 +1,19 @@
 aid: plantd
 name: Plantd
-description: 'Plantd is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Plantd is an American advanced-materials manufacturer based in Oxford,
+  North Carolina, founded in 2021 by former SpaceX engineers Nathan Silvernail (CEO)
+  and Huade Tan (CTO) with Josh Dorfman (CMO). The company grows and harvests fast-growing
+  perennial grass on farms across North Carolina and Virginia and presses it into
+  carbon-negative structural building panels intended to replace oriented strand board
+  (OSB), plywood and other timber-based sheathing. Production runs on a modular, all-electric,
+  closed-loop manufacturing platform in a 150,000+ sq ft facility, with a research
+  farm in Stovall, NC. Customers and partners include homebuilder D.R. Horton and
+  furniture brand Studio TK. Plantd has raised roughly $47.5M across seed, Series A
+  and a $22M Series B (October 2025). Plantd is a physical-goods manufacturer: it
+  publishes no developer program, no public API, and no machine-readable API contract
+  of any kind — this profile records that absence rather than an API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/plantd/refs/heads/main/apis.yml
+image: https://cdn.prod.website-files.com/625f19c458e42f47692e03b8/626c2af7a62122515767dbe0_favicon-plantd-256x256-2.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
@@ -12,6 +23,14 @@ created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Building Materials
+- Manufacturing
+- Construction
+- Sustainability
+- Carbon Removal
+- Climate Tech
+- Advanced Materials
+- Agriculture
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +38,47 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/plantd-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.plantdmaterials.com/
+- type: Blog
+  url: https://www.plantdmaterials.com/blog
+- type: About
+  url: https://www.plantdmaterials.com/about
+- type: Careers
+  url: https://www.plantdmaterials.com/careers
+- type: Press
+  url: https://www.plantdmaterials.com/press-media
+- type: LinkedIn
+  url: https://www.linkedin.com/company/plantdmaterials/
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Plantd manufactures carbon-negative structural building panels pressed from
+    perennial grass; its entire web presence is a six-page Webflow marketing site
+    (home, about, product, blog, careers, press) with no developer portal, no /api
+    path, no GitHub organisation and no package on any registry.
+  evidence:
+  - url: https://www.plantdmaterials.com/openapi.json
+    status: 404
+  - url: https://www.plantdmaterials.com/api-docs
+    status: 404
+  - url: https://www.plantdmaterials.com/graphql
+    status: 404
+  - url: https://www.plantdmaterials.com/llms.txt
+    status: 404
+  - url: https://www.plantdmaterials.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.plantdmaterials.com/developers
+    status: 404
+  - url: https://api.github.com/orgs/plantd
+    status: 404
+  - url: https://www.plantdmaterials.com/
+    status: 200
+  checked: '2026-08-26'
