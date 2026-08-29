@@ -13,6 +13,17 @@ description: 'Plantd is an American advanced-materials manufacturer based in Oxf
   publishes no developer program, no public API, and no machine-readable API contract
   of any kind — this profile records that absence rather than an API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/plantd/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/625f19c458e42f47692e03b8/626c2af7a62122515767dbe0_favicon-plantd-256x256-2.png
 x-type: company
 x-source: harvest:secondary-market
