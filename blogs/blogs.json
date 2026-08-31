@@ -1,0 +1,14 @@
+{
+  "repo": "plantd",
+  "feeds": [
+    {
+      "source": "https://www.plantdmaterials.com/",
+      "feed_url": "https://www.plantdmaterials.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-30T22:33:40Z"
+}
